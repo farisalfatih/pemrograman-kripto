@@ -1,0 +1,6 @@
+*.zip
+*.pdf
+*.docx
+venv/
+
+
