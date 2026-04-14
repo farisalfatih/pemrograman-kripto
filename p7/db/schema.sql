@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS tickers_indodax (
+    id SERIAL PRIMARY KEY,
+    pair TEXT NOT NULL,
+    buy DOUBLE PRECISION,
+    sell DOUBLE PRECISION,
+    low DOUBLE PRECISION,
+    high DOUBLE PRECISION,
+    last DOUBLE PRECISION,
+    server_time BIGINT,
+    vol_coin DOUBLE PRECISION,
+    vol_idr DOUBLE PRECISION,
+    created_at TIMESTAMP DEFAULT NOW()
+);
