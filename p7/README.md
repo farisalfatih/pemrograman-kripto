@@ -5,7 +5,6 @@
 - NPM: 22081010277  
 - Mata Kuliah: Pemrograman Kripto  
 - Pertemuan: Ke-7  
-- Topik: Data Ingestion & Storage Pipeline (Crypto Market Data)
 
 ---
 
@@ -77,13 +76,14 @@ Table: tickers_indodax
 ---
 
 ## ⚙️ Cara Menjalankan
-
+*Production*
 ```
-Production
-docker compose up --build  
+docker compose up --build
+```
 
-Pengembangan
-docker compose up -d --build  
+*Pengembangan*
+```
+docker compose up -d --build
 ```
 ---
 
