@@ -78,10 +78,13 @@ Table: tickers_indodax
 
 ## ⚙️ Cara Menjalankan
 
+```
+Production
 docker compose up --build  
 
+Pengembangan
 docker compose up -d --build  
-
+```
 ---
 
 ## 📊 Cara Cek Data
