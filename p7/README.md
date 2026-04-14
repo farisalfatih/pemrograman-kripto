@@ -43,7 +43,8 @@ Indodax API
 ---
 
 ## 📦 Struktur Project
-'''
+
+```
 project/
  ├── docker-compose.yml
  ├── db/
@@ -53,7 +54,8 @@ project/
  │    ├── Dockerfile
  │    └── requirements.txt
  └── .env
-'''
+```
+
 ---
 
 ## 🗄️ Database Schema
