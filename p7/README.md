@@ -88,15 +88,18 @@ docker compose up -d --build
 ---
 
 ## 📊 Cara Cek Data
-
+```
 docker exec -it tickers_db psql -U postgres -d tickers  
 
+Cek tabel yang ada
 \dt  
 
+Tampilkan 10 data
 SELECT * FROM tickers_indodax LIMIT 10;  
 
+Hitung data yang ada
 SELECT COUNT(*) FROM tickers_indodax;  
-
+```
 ---
 
 ## 🔁 Cara Kerja
